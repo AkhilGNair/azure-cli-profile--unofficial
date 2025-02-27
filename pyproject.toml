@@ -3,14 +3,14 @@ requires = ["setuptools >= 64.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "azure-cli-profile"
+name = "azure-cli-profile--unofficial"
 dynamic = ["version"]
 requires-python = ">= 3.9"
 dependencies = [
   "azure-cli-core==2.69.0",
 ]
 description = "Installs just the Azure Command-Line login tools"
-license = { text = "MIT" }
+license = {text = "MIT License"}
 authors = [
   { name = "Akhil Nair", email = "yup.im.aki@gmail.com" }
 ]
